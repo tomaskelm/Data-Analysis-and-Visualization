@@ -1,5 +1,5 @@
 # Data-Analysis-and-Visualization
-
+List
 - collect data programmatically (scrapping) from website
 - analyze this data 
 - output in a HTML format
