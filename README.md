@@ -20,3 +20,7 @@ BeautifulSoup will be used to parse the HTML files. It is one of the most used l
 - requests
 - beautifulsoup4
 - pandas
+### Installing the Required Libraries
+Easiest way to install external libraries in python is to use pip. Pip is a package management system used to install and manage software packages written in Python. All you need to do is: 
+- pip install requests
+- pip install beautifulsoup4
