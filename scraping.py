@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import pandas as pd
+print("Start")
 # use the requests module to get the HTML of the website’s main page
 main_url = "http://books.toscrape.com/index.html"
 result = requests.get(main_url) 
@@ -46,3 +47,4 @@ for url in booksURLs:
 #add data into pandas df
 scraped_data = pd.DataFrame({'name': names, 'price': prices, "product_category": categories, "rating": ratings})
 scraped_data.to_csv('books.csv', index=False, encoding='utf-8')
+print("Finish")
